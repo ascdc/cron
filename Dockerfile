@@ -1,4 +1,4 @@
-﻿FROM ubuntu:trusty
+FROM ubuntu:trusty
 MAINTAINER ASCDC <asdc.sinica@gmail.com>
 
 ADD run.sh /script/run.sh
