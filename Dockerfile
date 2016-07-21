@@ -7,7 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive && \
 	chmod +x /script/*.sh && \
 	apt-get update && \
 	apt-get -y dist-upgrade && \
-	apt-get -y install cron && \
+	apt-get -y install cron curl wget && \
 	locale-gen en_US.UTF-8 && \
 	export LANG=en_US.UTF-8
 
